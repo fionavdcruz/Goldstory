@@ -1,0 +1,436 @@
+ body {
+      font:'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: #666666;
+     background: #fff;
+     font-size:14px;
+     line-height: 22px;
+      }
+
+img{
+    height: auto;
+    max-width: 100%;
+    
+}
+.header .navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 80px;
+}
+.header .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.header .navbar-brand>img {
+  padding: 7px 14px;
+}
+
+.display1{
+    display:block;
+    position:fixed;
+    font-size: 11px;
+}
+\
+
+.title{
+    color:#D1A235;
+    font-family: Cardo;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+p{
+    font-family: Raleway;
+}
+.p1{
+    
+    height: 46px;
+    width: 806px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.p2{
+    text-align: center;
+}
+
+.top-parallax{
+    background-image: url(../images/Under_Construction_1600.jpg);
+    /* Set a specific height */
+    width: 100% !important;
+    height: 100%;
+    min-height: 662px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.text-rotate{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cardo;
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 255px;
+    left: 250px;
+}
+.parallax-title{
+     color:#fff;
+    font-family: Cardo;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top:90px;
+    margin-bottom: 20px;
+}
+
+.parallax-p1{
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.parallax-button{
+    background-color:#D1A235; 
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom:112px;
+    left:525px;
+    
+}
+
+.parallax-button:hover{
+    background-color: #000;
+    color: #fff;
+
+}
+.parallax1{
+     background-image: url(../images/Fotoapparat_1600.jpg);
+
+    /* Set a specific height */
+    min-height: 340px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.parallax2{
+      background-image: url(../images/Papeterie_1600.jpg);
+
+    /* Set a specific height */
+    min-height: 485px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    position: relative;
+}
+
+.member-description{
+    text-align: center;
+}
+
+.member-description h3{
+    color: #222222;
+}
+
+.smalltext{
+    font-size:11px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.parallax-contact{
+     background-image: url(../images/Kontakt_1600.jpg);
+
+    /* Set a specific height */
+    width: 100% !important;
+    height: 100%;
+    min-height: 991px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.footer{
+    background-color: #000;
+    text-align: center;
+    height: 62px;
+    position: relative;
+}
+
+.footer p{
+    padding-top: 26px;
+}
+
+.arrow-overlay{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #000;
+    top: -33px;
+    left: 657px;
+    border-radius: 2px;
+    padding-top: 6px;
+}
+
+.arrow-overlay a{
+     color: #fff;
+}
+
+.arrow-overlay a i:hover{
+    color:#D1A235;
+}
+
+
+.outer-form{
+    background-color: #fff;
+    opacity: 0.6;
+    width:572px;
+}
+
+.outer-form form{
+    margin-left: 30px;
+    color: #fff;
+}
+
+.left-column{
+    height:205px ;
+    width:510px ;
+    background-color: #fff;
+    opacity: 0.6;
+    margin-left: 95px;
+}
+
+.left-column h3{
+    margin-top: 0px;
+    margin-left: 36px;
+    padding-top: 34px;
+}
+.left-column ul li{
+ list-style: none;    
+}
+
+input[type=text]{
+    background-color: #4d4d4d;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+input[type=email]{
+    background-color: #4d4d4d;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+input[type=text]:focus{
+    background-color: #000;
+    box-shadow: none !important;
+}
+
+input[type=email]:focus{
+    background-color: #000;
+    box-shadow: none !important;
+    opacity: 0.6;
+}
+
+textarea{
+    background-color: #4d4d4d;
+}
+
+textarea:focus{
+    background-color: #000;
+    color:#fff;
+}
+
+.send-button{
+    background-color: #D1A235;
+    border: 1px solid transparent;
+    color:#fff;
+    border-radius: 2;
+}
+
+.bronze .silver .gold{
+    position:relative;
+}
+
+.top{
+    position: relative;
+    z-index: 9;
+}
+
+.overlay-icon1{
+    background: url('../images/Paket-Icon_Bronze.png');
+    position: relative;
+    z-index: 10;
+}
+
+.overlay-icon2{
+      background: url('../images/Paket-Icon_Silber.png');
+      position: relative;
+      z-index: 10;
+}
+
+.overlay-icon3{
+      background: url('../images/Paket-Icon_Gold.png');
+      position: relative;
+       z-index: 10;  
+}
+
+
+.outer-container{
+    display: -webkit-inline-flex;
+    display: inline-flex;
+     -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+}
+.outer-container2{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.outer-container3{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.wrapper:hover{
+     transform: rotateY(45deg)
+}
+
+
+.box-background{
+    position: relative;
+    height: 217px;
+    width: 331px;
+    background-color: #D1A235;
+}
+.box-background2{
+    position: relative;
+    height: 188px;
+    width: 331px;
+    background-color: #D1A235;
+    
+}
+.box-background3{
+    position: relative;
+    height: 186px;
+    width: 331px;
+    background-color:#D1A235;
+}
+
+.border-background{
+   height: 76px;
+   width: 331px;
+   border: 1px solid #D1A235;
+}
+
+.border-background2{
+   height: 98px;
+   width: 331px;
+   border: 1px solid #D1A235;
+}
+
+.border-background3{
+   height: 141px;
+   width: 331px;
+   border: 1px solid #D1A235;
+}
+
+.border-background p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.border-background2 p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.border-background3 p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.box-background3 h2{
+    color:#000;
+    text-align: center;
+}
+
+.box-background2 h2{
+     color:#000;
+    text-align: center;
+}
+
+.box-background h2{
+     color:#000;
+    text-align: center;
+}
+
+.outer-circle{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    top:-28px;
+    right:139px;
+    margin:0px 0px;
+    background-color: #D1A235;
+    text-align: center;
+}
+
+.black{
+    color: #000;
+    text-align: center;
+}
+
+.white{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 47px;
+}
+
+.navigation{
+    border-radius: 0px;
+    color:#fff;
+    font-size: 22px;
+    font-weight: bold;
+}
